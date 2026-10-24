@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maharaja P. | AI & Data Science Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Maharaja P., an AI and Data Science student interested in Python, machine learning, frontend development, and UI/UX design."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor" aria-hidden="true"></div>
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="orb orb-a" aria-hidden="true"></div>
+    <div class="orb orb-b" aria-hidden="true"></div>
+    <div class="orb orb-c" aria-hidden="true"></div>
+    <header class="nav">
+      <a class="logo" href="#home">My own web</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#blogs">Certifications</a>
+        <a href="#silly">Fun</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="hero">
+        <p class="eyebrow reveal">AI & DATA SCIENCE STUDENT</p>
+        <h1 class="reveal">
+          I’m <span class="gold">Maharaja.P</span>,
+          <span class="type-wrap"
+            >a <span id="typed" class="typed"></span><span class="caret"></span
+          ></span>
+        </h1>
+        <p class="lede reveal">
+          AI & Data Science student interested in Python, machine learning,
+          frontend development, website creation, and UI/UX design.
+          Currently building AURA, a personal local-first AI assistant.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="btn primary" href="#projects">See projects</a>
+          <a class="btn ghost" href="#contact">Start a conversation</a>
+        </div>
+        <div class="hero-card reveal" data-tilt>
+          <div class="hero-card-glow"></div>
+          <p class="mono">currently</p>
+          <h2>Learning, building & exploring AI</h2>
+          <ul>
+            <li>Python / c / HTML / CSS</li>
+            <li>AI, Machine Learning & Data Science</li>
+            <li>Frontend Development & UI/UX</li>
+          </ul>
+        </div>
+      </section>
+      <section id="about" class="section">
+        <div class="section-head reveal">
+          <p class="eyebrow">01 — about me</p>
+          <h2>A human, not a résumé.</h2>
+        </div>
+        <div class="about-grid">
+          <article class="glass reveal">
+            <h3>Who I am</h3>
+            <p>
+             I am a B.Tech Artificial Intelligence and Data Science student
+             at Narayana Guru College of Engineering, studying from 2024 to 2028.
+            </p>
+            <p>
+             I am interested in Python programming, machine learning,
+             frontend development, UI/UX design, and AI-assisted website creation.
+             My goal is to build practical projects and gain industry experience.
+            </p>
+          </article>
+          <article class="glass reveal">
+            <h3>Technical Skills</h3>
+            <div class="skills">
+                <div>
+                    <span>Python, C & C++</span>
+                    <i style="--p: 75%"></i>
+                </div>
+                <div>
+                    <span>HTML & CSS</span>
+                    <i style="--p: 75%"></i>
+                </div>
+                <div>
+                    <span>AI & Machine Learning</span>
+                    <i style="--p: 65%"></i>
+                </div>
+                <div>
+                    <span>UI/UX & Figma</span>
+                    <i style="--p: 65%"></i>
+                </div>
+            </div>
+          </article>
+          <article class="portrait reveal" aria-label="Maharaja profile photo">
+            <div class="portrait-ring"></div>
+            <img src="image/maharaja.jpg" alt="Maharaja P" />
+          </article>
+        </div>
+      </section>
+      <section id="experience" class="section">
+        <div class="section-head reveal">
+            <p class="eyebrow">02 — experience</p>
+            <h2>My Internship Journey.</h2>
+        </div>
+        <article class="glass reveal">
+            <h3>Intern — Knowledge Portfolio Management Department</h3>
+            <p><strong>CSIR — Central Leather Research Institute (CLRI)</strong></p>
+            <p>Chennai | June 2026 – July 2026</p>
+            <ul>
+                <li>Performed dataset preprocessing and CSV data analysis using Python.</li>
+                <li>Explored machine-learning concepts and basic neural networks.</li>
+                <li>Developed and presented a heart-disease prediction model.</li>
+            </ul>
+        </article>
+    </section>
+
+      <section id="projects" class="section">
+        <div class="section-head reveal">
+          <p class="eyebrow">02 — projects</p>
+          <h2>Things I made on purpose.</h2>
+        </div>
+        <div class="cards">
+          <article class="card reveal" data-tilt>
+            <div class="card-media m1"></div>
+            <h3>AURA — AI Assistant</h3>
+            <p>
+               A personal local-first AI assistant exploring chatbot
+               development and local AI integration using Ollama and Qwen3.
+               Planned improvements include the interface and new features.
+            </p>
+            <div class="tags"><span>Ollama</span><span>Qwen3</span><span>AI</span></div>
+          </article>
+          <article class="card reveal" data-tilt>
+            <div class="card-media m2"></div>
+            <h3>Heart-Disease Prediction</h3>
+            <p>
+              Developed and presented a heart-disease prediction model
+              during my internship at CSIR-CLRI, Chennai, exploring
+              machine-learning concepts and dataset preprocessing.
+            </p>
+            <div class="tags"><span>Python</span><span>Machine Learning</span></div>
+          </article>
+          <article class="card reveal" data-tilt>
+            <div class="card-media m3"></div>
+            <h3>Website Development</h3>
+            <p>
+              Created and refined websites using AI-assisted development,
+              HTML/CSS editing, layout improvements, and interface design.
+            </p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>UI/UX</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="blogs" class="section">
+        <div class="section-head reveal">
+          <p class="eyebrow">03 — — certifications & achievements</p>
+          <h2>Learning beyond the classroo</h2>
+        </div>
+        <div class="posts">
+          <article class="post">
+            <time>2026</time>
+            <h3>NPTEL SWAYAM — NLP Course</h3>
+            <p>Course listed in my resume.</p>
+        </article>
+          <article class="post reveal">
+            <time>Sep 2024</time>
+            <h3>AWS Solutions Architecture Job Simulation</h3>
+            <p>Forage.</p>
+        </article>
+          <article class="post reveal">
+            <time>july 2026</time>
+            <h3>CSIR-CLRI Internship Certificate</h3>
+            <p>Knowledge Portfolio Management Department, Chennai — 2026.</p>
+          </article>
+          <article class="post reveal">
+            <h3>LevelUp Skill Connect Program</h3>
+            <p>IT Desk, Nagercoil.</p>
+        </article>
+          <article class="post reveal">
+            <h3>Symposium Participation</h3>
+            <p>Chatbot Creation — St. Xavier's College of Engineering, Nagercoil.
+               UI/UX Design — P.S.R. College of Engineering, Sivakasi.
+               Idea Pitching (Combined OS) — Mar Ephraem College of Engineering
+               & Technology.
+            </p>
+            <p>Participation certificates received.</p>
+        </article>
+  </div>
+</section>
+      <section id="silly" class="section silly">
+        <div class="section-head reveal">
+          <p class="eyebrow">04 — silly stuff</p>
+          <h2>A fortune, because why not.</h2>
+        </div>
+        <div class="fortune-wrap reveal">
+          <button class="orb-btn" id="fortune-btn" type="button">
+            tap the moon
+          </button>
+          <p id="fortune" class="fortune">The internet is big. This page is yours.</p>
+        </div>
+      </section>
+      <section id="contact" class="section">
+        <div class="section-head reveal">
+          <p class="eyebrow">05 — contact</p>
+          <h2>Say hi. I actually read these.</h2>
+        </div>
+        <p class="lede">
+        Interested in AI, web development, or collaboration?
+        Feel free to reach out.
+    </p>
+    
+    <p>
+      Email:
+      <a href="mailto:raja03pm@gmail.com">raja03pm@gmail.com</a>
+    </p>
+    <p>Location: Tirunelveli, Tamil Nadu, India</p>
+    <p>
+        <a href="https://github.com/raja03pm-AI" target="_blank" rel="noopener noreferrer">GitHub</a>
+        |
+        <a href="https://www.linkedin.com/in/maharaja-p-b12877329/?isSelfProfile=true" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </p>
+</section>
+    </main>
+    <footer class="footer">
+      <p>Designed & built by Maharaja P <code>index.html</code> on GitHub Pages</p>
+      <p>© 2026 Maharaja P All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
